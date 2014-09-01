@@ -1,0 +1,228 @@
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<title>Voxel8</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
+ 
+<meta name="description" content="Voxel8"> 
+<meta name="keywords" content="3d printing"> 
+ 
+		<style type="text/css">
+<!--
+html, body{
+overflow: hidden;
+background:#212121;
+margin: 0px;
+padding: 0px;
+font-family: verdana;
+font-size: 15px; 
+}
+
+.principal{
+
+width: 300px;
+height: 275px;
+padding-top:180px;
+left: 50%;
+margin-left: -150px;
+position:absolute;
+	top:0%;
+	margin-top:0px;
+	z-index:1;
+text-align: center;
+background-color: #fa7917;
+vertical-align:bottom;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+
+	}
+
+.content1{
+
+text-align: center;
+width: 300px;
+
+position:relative;
+	top:0%;
+	margin-top:0px;
+	z-index:2;
+text-align: center;
+
+vertical-align: bottom;
+
+
+	}
+
+
+.background-wrapper{
+	overflow: auto;
+	width:100%;height:100%;
+	margin:0;padding:0;
+	position:fixed;left:0;top:0;
+	}
+
+img.background {
+	position: absolute;
+	top:0;
+	left:-2%;
+	width:110%;
+	z-index:0;
+	overflow: auto;
+}
+
+.textfield {
+
+-webkit-border-top-right-radius: 10px; 
+-webkit-border-top-left-radius: 10px; 
+-moz-border-radius-topright: 10px; 
+-moz-border-radius-topleft: 10px; 
+font-size: 15px; 
+font-style: italic; 
+color: gray; 
+background-color: #000000; 
+border: 0px; 
+padding: 15px; 
+width: 300px;
+	
+}
+.submitbutton {
+
+-webkit-border-bottom-right-radius: 10px; 
+-webkit-border-bottom-left-radius: 10px; 
+-moz-border-radius-bottomright: 10px; 
+-moz-border-radius-bottomleft: 10px; 
+border-bottom-right-radius: 10px; 
+border-bottom-left-radius: 10px;
+font-size: 15px; 
+font-style: italic; 
+color: #ffffff; 
+background-color: #fa7917; 
+border: 0px; 
+padding: 8px; 
+width: 300px;
+	
+}
+.paragraph {
+
+font-family: verdana;
+font-size: 12px; 
+color: #c0c0c0; 
+position: relative;
+border: 0px; 
+padding: 5px; 
+margin-top: 100px;
+margin-bottom: 30px;
+
+width: 300px;
+	
+}
+
+-->
+</style>
+
+<script type="text/javascript">
+
+function resetFields(whichform) { 
+  for (var i=0; i<whichform.elements.length; i++) { 
+    var element = whichform.elements[i]; 
+    if (element.type == "submit") continue; 
+    if (!element.defaultValue) continue; 
+    element.onfocus = function() { 
+      if (this.value == this.defaultValue) { 
+      this.value = ""; 
+      } 
+    } 
+    element.onblur = function() { 
+      if (this.value == "") { 
+      this.value = this.defaultValue; 
+      } 
+    } 
+  } 
+} 
+
+window.onload = prepareForms;
+function prepareForms() { 
+  for (var i=0; i<document.forms.length; i++) { 
+    var thisform = document.forms[i]; 
+    resetFields(thisform); 
+  }  
+}
+
+</script>
+	</head>
+
+	<body style="background: url(background_image.png); background-repeat: repeat-x;" scroll="no">
+
+
+
+
+
+<div id="background-wrapper" class="background-wrapper"> 
+
+
+
+
+
+
+
+		<div class="principal">
+
+	
+
+<div class="content1">
+
+		<img border="0" src="logo.png">
+
+<div class="paragraph">
+	Recieve updates about our first product:
+</div>
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//voxel8.us9.list-manage.com/subscribe/post?u=21f0d24d66072e73dde592822&amp;id=160b41dcb9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	
+<div class="mc-field-group">
+	<label for="mce-EMAIL"></label>
+	<input type="email" value="you@domain.com" name="EMAIL" class="textfield" id="mce-EMAIL">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_21f0d24d66072e73dde592822_160b41dcb9" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="submitbutton"></div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+
+
+
+</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+	</body>
+
+</html>
